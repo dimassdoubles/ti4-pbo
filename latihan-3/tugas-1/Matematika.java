@@ -1,7 +1,7 @@
 public class Matematika {
-    int angka1, angka2;
+    Double angka1, angka2;
 
-    public Matematika(int angka1, int angka2) {
+    public Matematika(Double angka1, Double angka2) {
         this.angka1 = angka1;
         this.angka2 = angka2;
     }
@@ -22,11 +22,4 @@ public class Matematika {
         System.out.println(angka1 + " / " + angka2 + " = " + (angka1/angka2));
     }
 
-    public static void main(String[] args) {
-        Matematika matematika = new Matematika(20, 2);
-        matematika.pertambahan();
-        matematika.pengurangan();
-        matematika.perkalian();
-        matematika.pembagian();
-    }
 }
